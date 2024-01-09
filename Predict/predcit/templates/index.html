@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Poc To Prod</title>
+  <style>
+    body {
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      color: #333;
+    }
+    p {
+      margin-bottom: 20px;
+    }
+    input[type="text"] {
+      width: 50%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    input[type="submit"] {
+      padding: 10px 20px;
+      border: none;
+      background-color: #4CAF50;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>Poc To Prod</h1>
+  <p>Entrez un sujet Stack Overflow et cliquez sur "Classifier" pour obtenir une prédiction ！！！</p>
+  <form method="POST">
+    <input type="text" name="model_input" placeholder="Enter your topic here" />
+    <br>
+    <input type="submit" value="Classify" />
+  </form>
+</body>
+</html>
